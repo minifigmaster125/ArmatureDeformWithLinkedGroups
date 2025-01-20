@@ -2,12 +2,6 @@ import bpy
 import bmesh
 from mathutils import Vector
 
-bl_info = {
-    "name": "Armature Deform With Linked Groups",
-    "blender": (4, 3, 2),
-    "category": "Object",
-}
-
 def get_mesh_islands(bm):
     """Find all vertex islands in the mesh using select linked."""
     bpy.ops.mesh.select_all(action='DESELECT')
@@ -149,7 +143,3 @@ def unregister():
     bpy.utils.unregister_class(AutoVertexGroupAssigner)
     # Remove the operator from the parenting menu
     bpy.types.VIEW3D_MT_object_parent.remove(parent_menu_func)
-
-if __name__ == "__main__":
-    register()
-
