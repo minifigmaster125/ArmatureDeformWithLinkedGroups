@@ -3,7 +3,7 @@ import bmesh
 from mathutils import Vector
 
 bl_info = {
-    "name": "Armature Deform With Machine Groups",
+    "name": "Armature Deform With Linked Groups",
     "blender": (4, 3, 2),
     "category": "Object",
 }
