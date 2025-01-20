@@ -2,6 +2,8 @@
 
 This add-on creates an armature with automatic vertex group assignment by vertex islands. A vertex island is all the vertices selected when "select linked" is used (ctrl-l, usually). Its intended use is for mechanical rigs, in which one mesh is usually made of several separate pieces. 
 
+Bones that do not have a closes vertex island will simply create an empty vertex group (e.g. control bones).
+
 If this add-on helps you, let me know! Star the repo :)
 
 ## How to Use

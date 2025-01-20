@@ -1,0 +1,11 @@
+schema_version = "1.0.0"
+id = "armature_deform_with_linked_groups"
+version = "1.0.0"
+name = "Armature Deform with Linked Groups"
+tagline = "Create an armature deformation using linked vertices"
+maintainer = "Suchaaver Chahal <suchaaverchahal@gmail.com>"
+type = "add-on"
+website = "https://github.com/minifigmaster125/ArmatureDeformWithLinkedGroups"
+tags = ["Rigging", "Animation", "Mesh"]
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
